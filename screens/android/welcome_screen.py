@@ -7,11 +7,11 @@ class WelcomeScreen(Screen):
     def __init__(self, driver):
         super().__init__(driver)
 
-    screen_title = ('id', 'uz.dida.payme:id/ivLogo')
-    # language_dropdown = ('id', 'trastpay.uz:id/layoutLanguage')
-    phone_number_field = ('id', 'uz.dida.payme:id/editTextPhone')
-    lang_uzb = ('xpath', '//android.widget.TextView[@resource-id="uz.dida.payme:id/tvTitle" and @text="O`ZBEKCHA"]')
-    # dear_user_message = ('id', 'trastpay.uz:id/textViewTitle')
+    screen_title = ('id', 'trastpay.uz:id/textViewWellCome')
+    language_dropdown = ('id', 'trastpay.uz:id/layoutLanguage')
+    phone_number_field = ('id', 'trastpay.uz:id/phone')
+    lang_uzb = ('id', 'trastpay.uz:id/textViewUz')
+    dear_user_message = ('id', 'trastpay.uz:id/textViewTitle')
 
     """ ** Kirish screen elements ** """
     kirish_screen_title = ('id', 'trastpay.uz:id/textViewWellCome')
